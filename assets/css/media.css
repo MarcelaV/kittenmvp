@@ -1,0 +1,33 @@
+@media (min-width: 535px) and (max-width: 824px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .container1{
+    background-image: url("../images/night.jpg");
+  }
+
+  .img1{
+    content: url(../images/kitten-medium.png);
+    width: 15em;
+    height: 10em;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 534px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .container1{
+    background-image: url("../images/dawn.png");
+  }
+
+  .img1{
+    content: url(../images/kitten-large.png);
+    width: 10em;
+    height: 5em;
+  }
+
+}
